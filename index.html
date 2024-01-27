@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css"/>
+    <title>Tugas Akhir</title>
+<style>
+    h2 {
+  text-shadow: 2px 2px 5px rgb(110, 98, 98);
+}
+h1 {
+  text-shadow: 2px 2px rgb(110, 98, 98);
+}
+</style>
+</head>
+<body bgcolor="black">
+<div class="w3-container">
+    <img src="samuraix.jpeg" alt="" width="100%" height="400"/>
+</div>
+    <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openmenu('Home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="openmenu('Tokoh Utama')">Kenshin Himura</button>
+        <div class="w3-dropdown-hover">
+        <button class="w3-button">Karakter</button>
+            <div class="w3-dropdown-content w3-bar-block w3-chard-4">
+                <button class="w3-bar-item w3-button" onclick="openmenu('subjek')">Musuh Utama</button>
+                <button class="w3-bar-item w3-button" onclick="openmenu('pkr')">Teman Dekat</button>
+            </div>    
+        </div>
+        <button class="w3-bar-item w3-button" onclick="openmenu('cipta')">kreator</button>
+    </div>
+<br>
+    <div id="Home" class="w3-container Menu w3-animate-zoom" style="display: none">
+        <center>
+            <img src="rurounikenshin.jpeg" />
+            <h2 style="color: azure;" class="w3-animate-fading">
+                Rurouni Kenshin
+            </h2>
+        </center>
+        <p>
+        <font style="color: azure;">
+            Rurouni Kenshin (Jepang: るろうに剣心, Hepburn: Rurōni Kenshin) adalah film Jepang tahun 2012 yang diadaptasi dari manga berjudul serupa
+            yang ditulis oleh Nobuhiro Watsuki. Disutradarai oleh Keishi Ōtomo, film ini dibintangi oleh Takeru Satoh dan Emi Takei.
+            Film ini berfokus pada masa fiksi yang berlatar belakang awal periode Meiji di Jepang, menceritakan kisah pengembara bernama Himura Kenshin yang dulunya dikenal sebagai pembunuh bayaran
+            Hitokiri Battōsai. Setelah ikut berpartisipasi dalam perang Bakumatsu, Kenshin mengembara ke seluruh Jepang untuk menawarkan perlindungan dan bantuan kepada yang membutuhkan
+            sebagai penebus dirinya karena telah menjadi pembunuh pada masa lalu.
+        </font>
+        </p>
+    </div>
+
+    <div id="Tokoh Utama" class="w3-container Menu" style="display: none">
+        <center>
+            <img src="kenshin.jpeg" width="300" height="400" class="w3-animate-top">
+            <h2 style="color: azure;" class="w3-animate-fading">
+                Kenshin Himura
+            </h2>
+        </center>
+        <p>
+           <font style="color: azure;">
+            Kenshin Himura atau Samurai X , yang dikenal sebagai Hitokiri legendaris Revolusi Meiji, Himura Battōsai (緋 村 抜 刀 斎), 
+            adalah protagonis utama dan karakter tituler dari seri Rurouni Kenshin. Kenshin telah menghabiskan sepuluh tahun perjalanan 
+            Jepang sebagai Rurouni yang mencari penebusan, membawa Sakabatō dengan sumpah untuk tidak pernah membunuh lagi. 
+            Pada awal 1878, ia tiba di Tokyo dan memilih tinggal di dojo Kamiya milik Kaoru Kamiya, di mana sumpahnya diuji
+             saat ia berjuang untuk menjaga perdamaian di negara itu.
+        </p>
+    </div>  
+
+    <div id="subjek" class="w3-container Menu" style="display: none">
+        <center>
+        <img src="makoto.jpeg" height="400" width="300" class="w3-animate-zoom"/>
+        <h2 style="color: azure;" class="w3-animate-top">
+            Shishio Makoto
+        </h2>
+        </center>
+        <p>
+            <font style="color: azure;">
+                Shishio Makoto adalah antagonis utama dari Kyoto arc dan mantan hitokiri Ishin Shishi yang dikenal
+                sebagai penerus Battosai. Namun setelah rekan-rekannya di pemerintahan berusaha untuk membunuhnya 
+                tetapi malah gagal, Shishio Makoto menjadi dendam terhadap pemerintah Meiji.
+                Dia kemudian perlahan-lahan mengumpulkan pasukan dan mengembangkan misi anti-pemerintah yang dipimpin
+                oleh kelompok prajurit elit pribadinya sendiri. Pasukan pemberontak itu bernama Juppongatana.
+        </p>
+    </div>
+
+    <div id="pkr" class="w3-container Menu" style="display: none">
+        <center>
+        <img src="sanosuke.jpeg" height="400" width="300" class="w3-animate-zoom"/>
+        <h2 style="color: azure;" class="w3-animate-top">
+            Sanosuke Sagara
+        </h2>
+        </center>
+        <p>
+            <font style="color: azure;">
+                Sanosuke memiliki peran yang sangat penting dalam cerita "Rurouni Kenshin." 
+                Dia adalah sahabat dekat Kenshin Himura, karakter utama cerita ini.
+                Sanosuke pertama kali diperkenalkan sebagai rival Kenshin dalam pertarungan, tetapi kemudian mereka berdua menjadi sekutu 
+                yang tak terpisahkan dalam perjuangan melawan kejahatan.
+                Selain menjadi pendamping setia Kenshin, Sanosuke juga merupakan sumber dukungan moral dan semangat bagi teman-temannya.
+                Dia adalah tipe orang yang selalu berdiri di garis depan untuk melindungi yang lemah dan membantu Kenshin 
+                dalam menghadapi musuh-musuh kuat.
+                Kontribusinya dalam pertempuran dan pengorbanannya demi tujuan mulia membuatnya menjadi karakter yang 
+                tak tergantikan dalam kelompok Kenshin.
+            </font>
+        </p>
+    </div>
+
+    <div id="cipta" class="w3-container Menu" style="display: none">
+        <br>
+        <center>
+        <br>
+        <br><br><br>
+        <p>
+            <footer>
+                <font style="color: azure;">
+                    <p>
+                        Nama:Muhammad Raihan Nur Aziz
+                        <br>
+                        Nim:10123388
+                        <br>
+                        kelas:IF-10
+                    </p>
+                </font>
+            </footer>
+        </p>
+        </center>
+    </div>
+<script>
+    function openmenu(namaMenu) {
+        var i;
+        var x = document.getElementsByClassName("Menu");
+        for (i = 0;i < x.length;i++){
+            x[i].style.display ="none";
+        }
+    document.getElementById(namaMenu).style.display ="block";
+    }
+</script>
+</body>
+</html>
